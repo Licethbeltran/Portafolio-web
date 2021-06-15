@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="eS">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Merriweather:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/fontello.css">
+  <link rel="icon" href="images/logo.ico">
+
+
+  <title>Paola Medina</title>
+</head>
+
+<body style="background-color: #DCC5EF ;">
+  <!--barra de navegación-->
+  <div id="sidebar">
+    <div class="toggle-btn">
+      <span class="d-inline-block" data-toggle="tooltip" data-placement="bottom" title="MENU">&#9776</span>
+    </div>
+    <ul>
+      <li><a class="colorr" href="index.html">Inicio</a></li>
+      <li><a class="colorr" href="index4.html">Acerca de mi</a></li>
+      <li><a class="colorr" href="index5.html">Contacto</a></li>
+      <li><a class="colorr" href="index2.html">Trabajo</a></li>
+      <li><a class="colorr" href="index3.html">Servicios</a></li>
+    </ul>
+  </div>
+
+
+
+  <form action="">
+    <h3>Formulario de contacto</h3>
+
+    <input type="text" name="nombre" placeholder="Nombre">
+    <input type="text" name="email" placeholder="Email">
+    <input type="text" name="asunto" placeholder="Asunto">
+    <textarea name="mensaje" placeholder="Escriba aquí su mensaje..."></textarea>
+    <input type="button" value="Enviar" id="botonn">
+  </form>
+  <!-- contacto -->
+  <div class="container-social">
+    <input type="checkbox" id="btn-mas">
+    <div class="redes">
+      <a href="https://www.facebook.com/licethpaola.beltranmedina/" class="icon-facebook"></a>
+      <a href="https://www.instagram.com/paola.medina._/" class="icon-instagram"></a>
+      <a href="https://github.com/Licethbeltran" class="icon-github-circled"></a>
+      <a href="https://www.behance.net/paolitabeltrn" class="icon-behance"></a>
+    </div>
+    <div class="btn-mas">
+      <label for="btn-mas" class="icon-plus"></label>
+    </div>
+  </div>
+
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+</body>
+<footer>
+  <p>Copyright &copy;
+    <script>document.write(new Date().getFullYear());</script>,todos los derechos reservados.
+  </p>
+</footer>
+<script type="text/javascript">
+  const btnToggle = document.querySelector('.toggle-btn');
+
+  btnToggle.addEventListener('click', function () {
+    console.log('clik')
+    document.getElementById('sidebar').classList.toggle('active');
+    console.log(document.getElementById('sidebar'))
+  });
+</script>
+
+</html>

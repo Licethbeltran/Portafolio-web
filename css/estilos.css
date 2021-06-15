@@ -1,0 +1,643 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carrusel{
+    padding-top: 2em;
+}
+iframe{
+    padding:2em;
+    margin: auto;
+}
+   
+footer {
+    text-align: center;
+    background-color: #EFD3EB;
+    color: #58449b;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+    /* position: fixed;
+    z-index: 1; */
+  }
+
+.navbar{
+    background-color: #EFD3EB;
+    min-height: 30px;
+}
+.navbar-brand{
+    padding: 5px; 
+    margin-left:  7%;
+}
+.paola{
+    font-family: 'Allura', cursive;
+    font-size: 2em;
+    text-align: center;
+    color: #58449b;
+    float: right;
+    
+}
+.sobremi{
+    font-family: 'Allura', cursive;
+    font-size: 2em;
+    margin-left: 5%;
+    color: #58449b;
+}
+.contacto{
+    font-family: 'Allura', cursive;
+    font-size: 2em;
+    margin-right: 10%;
+    color: #58449b;
+    
+}
+a:hover{
+    color:#b043e2;
+}
+
+img{
+    opacity: 75%;
+}
+
+
+
+/*fullscreen*/
+
+
+.button-container-2{
+    position:relative;
+    height:50px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:7vh;
+    overflow:hidden;
+    font-family: 'Allura', cursive;
+    font-weight:300;
+    transition:0.5s;
+    letter-spacing:1px;
+    
+}
+.button-container-2 button{
+    width:30%;
+    height:100%;
+    font-family: 'Allura', cursive;
+    font-weight:300;
+    font-size:2.5em;
+    letter-spacing:1px;
+    background:#7c60ac;
+    -webkit-mask:url(https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png);
+    mask:url(https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png);
+    -webkit-mask-size:3000% 100%;
+    mask-size:3000% 100%;
+    border:none;
+    color:#fff;
+    cursor:pointer;
+    border-radius: 15px;
+    
+    -webkit-animation:ani2 .7s steps(29) forwards;
+    animation:ani2 .7s steps(29) forwards
+}
+.button-container-2 button:hover{
+    -webkit-animation:ani .7s steps(29) forwards;
+    animation:ani .7s steps(29) forwards
+}
+
+@-webkit-keyframes ani{from{-webkit-mask-position:0 0;mask-position:0 0}
+to{-webkit-mask-position:100% 0;mask-position:100% 0}}
+@keyframes ani{from{-webkit-mask-position:0 0;mask-position:0 0}
+to{-webkit-mask-position:100% 0;mask-position:100% 0}}
+@-webkit-keyframes ani2{from{-webkit-mask-position:100% 0;mask-position:100% 0}
+to{-webkit-mask-position:0 0;mask-position:0 0}}
+@keyframes ani2{from{-webkit-mask-position:100% 0;mask-position:100% 0}
+to{-webkit-mask-position:0 0;mask-position:0 0}}
+
+.button-container-3{
+    
+    height:30%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10vh;
+    overflow:hidden;
+    font-family: 'Allura', cursive;
+    font-weight:300;
+    transition:0.5s;
+    letter-spacing:1px;
+    
+   
+    
+}
+.button-container-3 button{
+    width:30%;
+    height:100%;
+    font-family: 'Allura', cursive;
+    font-weight:300;
+    font-size:2.5em;
+    letter-spacing:1px;
+    background:#7c60ac;
+    -webkit-mask:url(https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png);
+    mask:url(https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png);
+    -webkit-mask-size:3000% 100%;
+    mask-size:3000% 100%;
+    border:none;
+    color:#fff;
+    cursor:pointer;
+    border-radius: 15px;
+    -webkit-animation:ani2 .7s steps(29) forwards;
+    animation:ani2 .7s steps(29) forwards
+}
+.button-container-3 button:hover{
+    -webkit-animation:ani .7s steps(29) forwards;
+    animation:ani .7s steps(29) forwards
+}
+
+@-webkit-keyframes ani{from{-webkit-mask-position:0 0;mask-position:0 0}
+to{-webkit-mask-position:100% 0;mask-position:100% 0}}
+@keyframes ani{from{-webkit-mask-position:0 0;mask-position:0 0}
+to{-webkit-mask-position:100% 0;mask-position:100% 0}}
+@-webkit-keyframes ani2{from{-webkit-mask-position:100% 0;mask-position:100% 0}
+to{-webkit-mask-position:0 0;mask-position:0 0}}
+@keyframes ani2{from{-webkit-mask-position:100% 0;mask-position:100% 0}
+to{-webkit-mask-position:0 0;mask-position:0 0}
+
+}
+
+/*pagina2*/
+
+
+.images{
+   margin-top: 0.5em;
+    z-index: 10;
+    opacity: 100%;
+}
+h4{
+    font-family: 'Allura', cursive;
+    color:white;
+    text-align: center;
+    font-size: 3em;
+    
+}
+/*pagina3*/
+h5{
+    font-family: 'Allura', cursive;
+    color:white;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+.parrafo{
+    font-family: 'Merriweather', serif;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+
+}
+/*pagina4*/
+.barra{
+    width:100% ;
+    height: 5em; 
+    background-color: #EFD3EB;
+    
+}
+
+
+
+.edu{
+    font-family: 'Allura', cursive;  
+    text-align: center;
+    font-size: 3em;
+    margin:5px;
+}
+
+
+
+.pagina{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(223, 33, 33, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(133, 5, 184, 0.788);
+}
+
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Merriweather', serif;
+    margin: 3em;
+    
+}
+.card{
+    background-color: #DCC5EF;
+    margin: 10px;
+}
+/*pagina5*/
+.texto{
+    font-family: 'Allura', cursive; 
+    font-size: 3em;
+    text-align: center;
+    margin-top: 3em;
+
+}
+.container-5{
+    height: 15px;
+    background-color: rgb(203, 140, 240);
+    position: relative;
+    border-radius: 90%;
+    opacity: 80%;
+}
+.container .progress-bar{
+    position: absolute;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #40276E;
+    animation: progress-animation 2s forwards;
+    opacity: 90%;
+}
+@keyframes progress-animation{
+   0% {width: 0%;} 
+   100% {width: 80%;}
+}
+.habi1{
+    font-family: 'Allura', cursive; 
+    font-size: 2em;
+   
+}
+
+.titulo{
+    font-family: 'Allura', cursive; 
+    font-size: 3em;
+    text-align: center;
+    margin-top: 2em;
+    margin: 2em;
+   
+ 
+
+}
+
+.barra2{
+    margin-top:5em;
+}
+
+.container .progres{
+    position: absolute;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #40276E;
+    animation: progres-animation 2s forwards;
+    opacity: 90%;
+}
+@keyframes progres-animation{
+    0% {width: 0%;} 
+    100% {width: 70%;}
+ }
+ .barra3{
+    margin-top:5em;
+}
+
+.container .progres3{
+    position: absolute;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #40276E;
+    animation: progres3-animation 2s forwards;
+    opacity: 90%;
+}
+@keyframes progres3-animation{
+    0% {width: 0%;} 
+    100% {width: 70%;}
+ }
+
+ .barra4{
+    margin-top:5em;
+}
+
+.container .progres4{
+    position: absolute;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #40276E;
+    animation: progres4-animation 2s forwards;
+    opacity: 90%;
+}
+@keyframes progres4-animation{
+    0% {width: 0%;} 
+    100% {width: 90%;}
+ }
+ .barra5{
+    margin-top:5em;
+}
+
+.container .progres5{
+    position: absolute;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #40276E;
+    animation: progres5-animation 2s forwards;
+    opacity: 90%;
+}
+@keyframes progres5-animation{
+    0% {width: 0%;} 
+    100% {width: 60%;}
+ }
+ .titu{
+    font-family: 'Allura', cursive; 
+    font-size: 3em;
+    margin-top: 2em;
+    margin:2em;
+    text-align:center;
+
+}
+.barra6{
+    margin-top:5em;
+}
+
+.container .progres6{
+    position: absolute;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #40276E;
+    animation: progres6-animation 2s forwards;
+    opacity: 90%;
+}
+@keyframes progres6-animation{
+    0% {width: 0%;} 
+    100% {width: 80%;}
+ }
+ .barra7{
+    margin-top:5em;
+}
+
+.container .progres7{
+    position: absolute;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #40276E;
+    animation: progres7-animation 2s forwards;
+    opacity: 90%;
+}
+@keyframes progres7-animation{
+    0% {width: 0%;} 
+    100% {width: 80%;}
+ }
+ .barra8{
+    margin-top:5em;
+}
+
+.container .progres8{
+    position: absolute;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #40276E;
+    animation: progres8-animation 2s forwards;
+    opacity: 90%;
+}
+@keyframes progres8-animation{
+    0% {width: 0%;} 
+    100% {width: 70%;}
+ }
+ .barra9{
+    margin-top:5em;
+}
+
+.container .progres9{
+    position: absolute;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #40276E;
+    animation: progres9-animation 2s forwards;
+    opacity: 90%;
+}
+@keyframes progres9-animation{
+    0% {width: 0%;} 
+    100% {width: 60%;}
+ }
+ .barra10{
+    margin-top:5em;
+}
+
+.container .progres10{
+    position: absolute;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #40276E;
+    animation: progres10-animation 2s forwards;
+    opacity: 90%;
+}
+@keyframes progres10-animation{
+    0% {width: 0%;} 
+    100% {width: 60%;}
+ }
+
+.fotopersonal{
+   width: 60%;
+   height:90%;
+   margin:auto;
+   padding: auto;
+  
+  
+}
+.minombre{
+    font-family: 'Merriweather', serif;
+    padding: 10%;
+    margin:auto;
+    padding: auto;
+}
+.info{
+    font-family: 'Allura', cursive; 
+    font-size: 3em;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 2em;
+
+}
+/*pagina 5*/
+.cont{
+    font-family: 'Allura', cursive;  
+    text-align: center;
+    font-size: 3em;
+    margin:5px;
+}
+
+.frase{
+    font-family: 'Allura', cursive;  
+    text-align: center;
+    font-size: 40px; 
+    
+}
+
+form{
+    width: 400px;
+    margin:auto;
+    background-color: #DCC5EF ;
+    padding: auto;
+    box-sizing: border-box;
+    margin-top: 5px;
+    border-radius: 20px;
+    opacity: 90%;
+    
+}
+h3{
+    color: #40276E;
+    text-align: center;
+    margin:0;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Allura', cursive; 
+
+}
+input,textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 3px;
+    box-sizing: border-box;
+    font-family: 'Allura', cursive; 
+    font-size: 30px;
+    border:none;
+    color: #40276E;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#botonn{
+    background: #EFD3EB;
+    color: #40276E;
+    padding: 10px;
+}
+#botonn :hover{
+    cursor: pointer;
+}
+/*redes*/
+
+#btn-mas{
+    display: none;
+}
+.container-social{
+    position: fixed;
+    bottom: 20px;
+    right: 1em;
+    z-index: 50;
+}
+.redes a, .btn-mas label{
+    display: block;
+    text-decoration: none;
+    background: #40276E;
+    color: #EFD3EB;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px rgba(226, 36, 185, 0.733);
+    transition: all 500ms ease;
+}
+.redes a:hover{
+    background: #EFD3EB;
+    color: #40276E;
+}
+.redes a{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-mas:checked~ .redes a{
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+}
+.btn-mas label{
+    cursor: pointer;
+    background: #40276E;
+    font-size: 23px;
+}
+#btn-mas:checked ~ .btn-mas label{
+    transform: rotate(180deg);
+    font-size: 15px;
+}
+/*menu*/
+
+  #sidebar{
+      z-index: 100;
+  }
+  #sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #EFD3EB;
+    left: -200px;
+    transition: all 500ms linear;
+  }
+  
+  #sidebar.active {
+    left: 0px;
+  }
+  
+  #sidebar ul li {
+    color: rgba(165, 58, 207, 0.9);
+    padding: 23px 10px;
+    align-content: center;
+    font-family: 'Allura', cursive; 
+    font-size: 2em;
+   
+  }
+  
+  .logoo {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto; 
+  }
+  
+  #sidebar .toggle-btn {
+    position: absolute;
+    left: 230px;
+    top: 20px;
+    cursor: pointer;
+  }
+  
+  #sidebar .toggle-btn span {
+    display: block;
+    width: 40px;
+    font-size: 30px;
+    color:#40276E;
+    
+    margin: auto;
+    padding: auto;
+   
+  }
+  .colorr{
+    color: #40276E;
+  }
+  @media screen and (max-width: 380px) and (min-width: 50px){
+      .contacto{
+
+      }
+  }
+  
+
+
